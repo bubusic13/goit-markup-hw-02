@@ -20,6 +20,9 @@
 .link {
     text-decoration: none;
 }
+.contact-link {
+    text-decoration: none;
+}
 
 body {
     background-color: #ffffff;
@@ -35,8 +38,13 @@ body {
     border-bottom: var(--accent-cl);
 }
 
+
 .link:hover,
 .link:focus {
+    color: var(--pressed-state-cl);
+}
+.contact-link:hover,
+.contact-link:focus {
     color: var(--pressed-state-cl);
 }
 .logo-link{
@@ -55,7 +63,7 @@ body {
     font-weight: 500;
     color: var(--modal-overlay-cl);
 }
-.contacts-link{
+.contact-link{
     color: var(--primary-txt-cl);
 }
 .hero{
