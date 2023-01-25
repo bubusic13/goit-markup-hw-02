@@ -1,0 +1,110 @@
+:root {
+    --primary-brand-cl: #4d5ae5;
+    --pressed-state-cl: #404bbf;
+    --secondary-txt-cl: #2e2f42;
+    --success-cl: #31d0aa;
+    --primary-txt-cl: #434455;
+    --subtitle-txt-cl: #8e8f99;
+    --accent-cl: #e7e9fc;
+    --lightmod-bg-cl: #f4f4fd;
+    --modal-overlay-cl: #2e2f42;
+    --hero-bg-cl: #2e2f42;
+
+    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-txt-cl);
+    font-family: roboto, serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: calc(24 / 16);
+}
+
+.header{
+    border-bottom: var(--accent-cl);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--pressed-state-cl);
+}
+.logo-link{
+    font-family: raleway, serif;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
+}
+.logo-part{
+    color: var(--primary-brand-cl);
+}
+.link-current{
+    color: var(--primary-brand-cl);
+}
+.header-nav{
+    font-weight: 500;
+    color: var(--modal-overlay-cl);
+}
+.contacts .link{
+    color: var(--primary-txt-cl);
+}
+.hero{
+    background-color: var(--modal-overlay-cl);
+}
+.hero-title{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+}
+.hero-btn{
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    background-color: var(--primary-brand-cl);
+}
+.btn:hover,
+.btn:focus{
+    background-color: #404bbf;
+    cursor: pointer;
+}
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    color: var(--modal-overlay-cl);
+}
+.section-title{
+    font-size: 36px;
+    line-height: calc(40/36);
+    color: var(--secondary-txt-cl);
+}
+.section-team{
+    background-color: var(--lightmod-bg-cl);
+}
+.team-member-card{
+    background-color: #ffffff;
+}
+.footer{
+    background-color: var(--secondary-txt-cl);
+    color: var(--accent-cl);
+}
+.footer-logo {
+    font-family: raleway, serif;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: var(--lightmod-bg-cl);
+    line-height: calc(21/18);
+}
+
+
+
