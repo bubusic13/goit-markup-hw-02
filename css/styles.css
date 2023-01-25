@@ -23,6 +23,9 @@
 .contact-link {
     text-decoration: none;
 }
+.link-current {
+    text-decoration: none;
+}
 
 body {
     background-color: #ffffff;
@@ -58,6 +61,9 @@ body {
 }
 .link-current{
     color: var(--primary-brand-cl);
+}
+.link{
+    color: var(--secondary-txt-cl);
 }
 .header-nav{
     font-weight: 500;
