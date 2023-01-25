@@ -55,7 +55,7 @@ body {
     font-weight: 500;
     color: var(--modal-overlay-cl);
 }
-.contacts .link{
+.contacts-link{
     color: var(--primary-txt-cl);
 }
 .hero{
