@@ -119,6 +119,13 @@ body {
     color: var(--lightmod-bg-cl);
     line-height: calc(21/18);
 }
+.filter-btn{
+    background-color: var(--lightmod-bg-cl);
+    color: var(--primary-brand-cl);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border: none;
+}
 
 
 
