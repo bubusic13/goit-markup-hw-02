@@ -9,6 +9,7 @@
     --lightmod-bg-cl: #f4f4fd;
     --modal-overlay-cl: #2e2f42;
     --hero-bg-cl: #2e2f42;
+    --primary-background-cl: #ffffff;
 
     
 }
@@ -16,7 +17,12 @@
 .list {
     list-style: none;
 }
-
+.logo-link{
+    text-decoration: none;
+}
+.footer-logo {
+    text-decoration: none;
+}
 .link {
     text-decoration: none;
 }
@@ -28,13 +34,11 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--primary-background-cl);
     color: var(--primary-txt-cl);
-    font-family: roboto, serif;
-    font-weight: 400;
+    font-family: roboto, sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    line-height: calc(24 / 16);
 }
 
 .header{
@@ -55,15 +59,19 @@ body {
     font-weight: 800;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
+    font-size: 18px;
+    line-height: calc(24/18);
 }
 .logo-part{
     color: var(--primary-brand-cl);
 }
 .link-current{
     color: var(--primary-brand-cl);
+    line-height: calc(24/16);
 }
 .link{
     color: var(--secondary-txt-cl);
+    line-height: calc(24/16);
 }
 .header-nav{
     font-weight: 500;
@@ -71,24 +79,29 @@ body {
 }
 .contact-link{
     color: var(--primary-txt-cl);
+    line-height: calc(24/16);
 }
 .hero{
     background-color: var(--modal-overlay-cl);
 }
 .hero-title{
-    color: #ffffff;
+    color: var(--primary-background-cl);
     font-size: 56px;
-    line-height: 1.07;
+    line-height: calc(60/56);
 }
 .hero-btn{
-    color: #ffffff;
+    color: var(--primary-background-cl);
     font-weight: 500;
     letter-spacing: 0.04em;
     background-color: var(--primary-brand-cl);
+    line-height: calc(24/16);
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    border-radius: 4px;
 }
 .btn:hover,
 .btn:focus{
-    background-color: #404bbf;
+    background-color: var(--pressed-state-cl);
     cursor: pointer;
 }
 .title{
@@ -106,11 +119,13 @@ body {
     background-color: var(--lightmod-bg-cl);
 }
 .team-member-card{
-    background-color: #ffffff;
+    background-color: var(--primary-background-cl);
+    line-height: calc(24/16);
 }
 .footer{
     background-color: var(--secondary-txt-cl);
     color: var(--accent-cl);
+    line-height: calc(24/16);
 }
 .footer-logo {
     font-family: raleway, serif;
@@ -118,13 +133,21 @@ body {
     letter-spacing: 0.03em;
     color: var(--lightmod-bg-cl);
     line-height: calc(21/18);
+    font-size: 18px;
 }
 .filter-btn{
     background-color: var(--lightmod-bg-cl);
     color: var(--primary-brand-cl);
     font-weight: 500;
     letter-spacing: 0.04em;
-    border: none;
+    line-height: calc(24/16);
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    border: 1px solid var(--accent-cl);
+    border-radius: 4px;
+}
+.portfolio-card{
+    line-height: calc(24/16);
 }
 
 
